@@ -75,6 +75,22 @@
       ],
       "solved": false,
       "solved_at": ""
+    },
+    {
+      "id": "kimiagar",
+      "title": "کیمیاگر",
+      "prompt": "زرگر که باشی، غربال دست میگیری. (کی به کیه یه ضرب‌المثل هم از خودمون در بیاریم :پی) کارگاه این‌جاست: api/kimiagar",
+      "files": [],
+      "solved": false,
+      "solved_at": ""
+    },
+    {
+      "id": "pelak",
+      "title": "دیوار به دیوار",
+      "prompt": "اینجا خونته. هرچی تو خونه‌ی خودت هست، به چشمت نمیاد.",
+      "files": [],
+      "solved": false,
+      "solved_at": ""
     }
   ]
 }
