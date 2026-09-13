@@ -1,10 +1,3 @@
-<!-- DevSponsors Badges -->
-<p align="center">
-  <a href="https://devsponsors.github.io"><img src="https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github" alt="DevSponsors Verified"></a>
-  <a href="https://devsponsors.github.io"><img src="https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors" alt="DevSponsors Sponsor"></a>
-  <a href="https://devsponsors.github.io/mediakit.html"><img src="https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server" alt="DevSponsors Cloud"></a>
-</p>
-
 # 🧩 راهنمای جامع و سورس‌کدهای مسابقه رمزالمثل یکتانت (Yektanet Ramzolmasal CTF)
 
 مجموعه ابزارها، اسکریپت‌های پایتون و C، کلون فرانت‌اند سایت مسابقه، و تحلیل‌های گام‌به‌گام برای چالش‌های مسابقه آنلاین روز برنامه‌نویس یکتانت (رمزالمثل).
@@ -52,10 +45,10 @@
 | ۴ | **شاهد روباه** | `shahed` | ✅ حل شد | تایید هویت سلف‌سایند کلاینت و امضای هویت |
 | ۵ | **ارزش نبات** | `nabat` | ✅ حل شد | دور زدن `robots.txt` و `User-Agent: khar` در `api/price` |
 | ۶ | **سرگیجه** | `sargijeh` | ✅ حل شد | ماتریس برداری، هدایت گراف و ربع چرخیدن (شعر حافظ) |
-| ۷ | **خیار** | `khiar` | 🔍 در دست بررسی | ضرب‌المثل‌های مرتبط با خیار و سبزیجات |
-| ۸ | **یاایکس** | `ya-x` | 🔍 در دست بررسی | تحلیل اندپوینت‌ها و ضرب‌المثل‌های نهایی |
-| ۹ | **کیمیاگر** | `kimiagar` | 🔍 در دست بررسی | تحلیل اندپوینت‌ها و تبدیل مس به طلا |
-| ۱۰ | **دیوار به دیوار** | `pelak` | 🔍 در دست بررسی | همسایگی و پیمایش پلاک‌ها |
+| ۷ | **خیار** | `khiar` | 🔍 در دست بررسی | ضرب‌المثل «شمارت داره می‌گنده» (نمک/شور) |
+| ۸ | **یاایکس** | `ya-x` | 🔍 در دست بررسی | فایل صوتی باینری `chap.bin` و ترکیب کانال راست/چپ |
+| ۹ | **کیمیاگر** | `kimiagar` | 🔍 در دست بررسی | استخراج پیوسته با پروتکل دوطرفه WebSocket |
+| ۱۰ | **دیوار به دیوار** | `pelak` | 🔍 در دست بررسی | همسایگی و پیمایش پلاک‌ها («اینجا خونته») |
 
 ---
 
@@ -236,7 +229,8 @@
 │   ├── analyze_sargijeh.py  # پارسر و آنالیزور گراف SVG سرگیجه
 │   └── sim_sargijeh.py      # شبیه‌ساز حرکت در ماتریس سرگیجه
 └── data/
+    ├── chap.bin             # فایل باینری کانال صوتی چپ چالش یاایکس
     ├── sargijeh.svg         # فایل SVG استخراج‌شده مرحله سرگیجه
-    ├── ramzolmasal_telegram_members.json   # اطلاعات ۳۰۷ عضو گروه
-    └── ramzolmasal_telegram_messages.txt   # آرشیو کامل ۶۳۵ پیام گروه
+    ├── ramzolmasal_telegram_members.json   # اطلاعات اعضای گروه
+    └── ramzolmasal_telegram_messages.txt   # آرشیو پیام‌های گروه
 ```
