@@ -1,5 +1,18 @@
 # 🧩 راهنمای جامع و سورس‌کدهای مسابقه رمزالمثل یکتانت (Yektanet Ramzolmasal CTF)
 
+<p align="center">
+  <a href="https://devsponsors.github.io"><img src="https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github" alt="DevSponsors Verified"></a>
+  <a href="https://devsponsors.github.io"><img src="https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors" alt="DevSponsors Sponsor"></a>
+  <a href="https://devsponsors.github.io/mediakit.html"><img src="https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server" alt="DevSponsors Cloud"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CTF-Yektanet_Ramzolmasal_2026-blue?style=flat-square&logo=target" alt="Contest">
+  <img src="https://img.shields.io/badge/Solvers-Python_&_C-green?style=flat-square&logo=python" alt="Solvers">
+  <img src="https://img.shields.io/badge/Solved-7%20%2F%2010%20(70%25)-brightgreen?style=flat-square" alt="Progress">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
+</p>
+
 مجموعه ابزارها، اسکریپت‌های پایتون و C، کلون فرانت‌اند سایت مسابقه، و تحلیل‌های گام‌به‌گام برای چالش‌های مسابقه آنلاین روز برنامه‌نویس یکتانت (رمزالمثل).
 
 ---
