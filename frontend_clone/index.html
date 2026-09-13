@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>رمزالمثل — مسابقه‌ی آنلاین روز برنامه‌نویس یکتانت</title>
+    <link rel="icon" id="favicon" href="static/img/hero.jpg" />
+    <link rel="stylesheet" href="static/css/ctf.css" />
+  </head>
+  <body>
+    <!-- آفرین، view-source را باز کردی. جای درستی را نگاه می‌کنی، ولی راز اینجا نیست: کنسول. -->
+    <header>
+      <span class="brand">YEK{256}</span>
+      <nav>
+        <a href="." class="active" id="nav-home">ورود</a>
+        <a href="board">جدول مرحله‌ها</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <div class="masthead">
+          <div class="masthead-words">
+            <p class="masthead-title">مسابقه‌ی آنلاین روز برنامه‌نویس یکتانت</p>
+            <h1 class="masthead-name">رمزالمثل</h1>
+          </div>
+          <img class="masthead-art" src="static/img/hero.jpg" width="320" height="320" alt="" />
+        </div>
+
+        <section id="step-waiting">
+          <p class="lead">یک لحظه…</p>
+        </section>
+
+        <section id="step-phone" hidden>
+          <label for="phone">شماره‌ی موبایل</label>
+          <input id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="09xxxxxxxxx" />
+          <button id="send-code">ارسال کد</button>
+        </section>
+
+        <section id="step-code" hidden>
+          <label for="code">کد پنج‌رقمی که فرستادیم</label>
+          <input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="5" />
+          <button id="verify-code">ورود</button>
+          <button id="change-phone" class="link" type="button">تغییر شماره</button>
+        </section>
+
+        <section id="step-nickname" hidden>
+          <label for="nickname">یک نام برای جدول مرحله‌ها انتخاب کن</label>
+          <input id="nickname" type="text" maxlength="24" />
+          <button id="save-nickname">ثبت نام</button>
+        </section>
+
+        <section id="step-ready" hidden>
+          <p>خوش آمدی، <strong id="ready-nickname"></strong>.</p>
+
+          <div id="countdown" class="countdown" hidden>
+            <p class="countdown-lead">تا شروع مسابقه</p>
+            <div class="countdown-units">
+              <div class="unit"><pre class="value" dir="ltr" id="cd-days"></pre><span class="label">روز</span></div>
+              <div class="unit"><pre class="value" dir="ltr" id="cd-hours"></pre><span class="label">ساعت</span></div>
+              <div class="unit"><pre class="value" dir="ltr" id="cd-minutes"></pre><span class="label">دقیقه</span></div>
+              <div class="unit"><pre class="value" dir="ltr" id="cd-seconds"></pre><span class="label">ثانیه</span></div>
+            </div>
+            <p class="countdown-when" id="countdown-when"></p>
+          </div>
+
+          <div id="ready-unsolved" class="panel-note" hidden>
+            <p class="hint-lead" id="panel-lead"></p>
+            <p class="answer"><code id="panel-answer"></code></p>
+            <p id="panel-call"></p>
+            <p class="hint-aside" id="panel-aside"></p>
+            <p class="hint-aside"><a href="https://t.me/+LNZGH0NdgbBkOTUy" target="_blank" rel="noopener noreferrer">گروه تلگرام مسابقه</a></p>
+          </div>
+          <div id="ready-solved" class="panel-note" hidden>
+            <p class="hint-lead" id="solved-lead"></p>
+            <p id="ready-progress"></p>
+            <p class="hint-aside"><span id="solved-aside"></span> <a href="board" id="solved-board"></a></p>
+            <p class="hint-aside"><a href="https://t.me/+LNZGH0NdgbBkOTUy" target="_blank" rel="noopener noreferrer">گروه تلگرام مسابقه</a></p>
+          </div>
+          <p class="charm" id="charm"></p>
+          <p class="note" id="note"></p>
+          <button id="logout" class="link" type="button">خروج</button>
+        </section>
+
+        <p id="message" class="message" role="status"></p>
+      </div>
+    </main>
+    <script src="static/js/common.js"></script>
+    <script src="static/js/ctf.js"></script>
+    <script src="static/js/login.js"></script>
+  </body>
+</html>
