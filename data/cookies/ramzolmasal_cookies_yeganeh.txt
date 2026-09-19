@@ -1,0 +1,5 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+256.yektanet.tech	FALSE	/	TRUE	1791893001	ctf_session	a5d2d0bfaf90f784e00182d8d5d884ce5b69b1ac2e30e55bda1916a26e418d42
